@@ -48,7 +48,7 @@
 	</section>
 
 	<section
-		class="bg-black text-white p-4 md:px-32 md:flex md: flex-col md:text-center md:text-xl md:py-20 md:items-center"
+		class="bg-black text-white p-4 md:px-32 flex flex-col text-center md:text-xl md:py-20 items-center"
 	>
 		<div class="text-xl md:text-4xl">About Me</div>
 		<p>
@@ -63,7 +63,7 @@
 			/></button
 		>
 
-		<div class="flex items-end justify-end flex-col md:items-center">
+		<div class="flex items-center justify-center flex-col md:items-center">
 			<div class="text-xl mt-8">Socials</div>
 			<div class="flex gap-1 justify-center items-center">
 				<a href="https://www.npmjs.com/~anandhu_or" target="_blank">
