@@ -33,7 +33,7 @@
 		<img
 			src="/images/hero.webp"
 			alt=""
-			class="lg:h-60 w-60 cursor-move"
+			class="lg:h-60 w-60 cursor-move -z-20 md:z-0"
 			use:pannable
 			on:panstart={handlePanStart}
 			on:panmove={handlePanMove}
