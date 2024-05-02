@@ -73,3 +73,35 @@ body {
 	backdrop-filter: blur(5px);
 	-webkit-backdrop-filter: blur(5px);
 }
+
+@keyframes bug-crawl {
+	0% {
+		top: 5%;
+		left: 0%;
+	}
+	25% {
+		top: 25%;
+		left: 60%;
+	}
+	50% {
+		top: 90%;
+		left: 50%;
+	}
+	75% {
+		top: 90%;
+		left: 10%;
+	}
+	100% {
+		top: 5%;
+		left: 10%;
+	}
+}
+
+.bug {
+	position: absolute;
+	height: 20px;
+	width: 20px;
+	background: transparent;
+	border-radius: 50%;
+	animation: bug-crawl 100s linear infinite;
+}

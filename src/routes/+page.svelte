@@ -55,7 +55,13 @@
 			I'm From Kerala The South Part of India. Where I working as a Full Stack Developer For The
 			Last Two Years. I love to build Hybrid Applications. I make music too...
 		</p>
-		<button class="pixel1 p-2 m-4 w-[200px]">Download Resume</button>
+		<button class="pixel1 p-2 m-4 w-[200px] relative">
+			Download Resume <img
+				src="/images/bugcss.svg"
+				alt=""
+				class="w-10 absolute top-0 right-0 -rotate-45"
+			/></button
+		>
 
 		<div class="flex items-end justify-end flex-col md:items-center">
 			<div class="text-xl mt-8">Socials</div>
