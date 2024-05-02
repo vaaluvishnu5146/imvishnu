@@ -12,7 +12,7 @@
 	display: block;
 	position: relative;
 	background: #000;
-	width: auto;
+	/* width: auto; */
 	z-index: 2;
 }
 body {

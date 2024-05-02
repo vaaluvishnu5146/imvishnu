@@ -3,21 +3,21 @@
 
 <main class="">
 	<section class="flex justify-center flex-col items-center h-[90vh]">
-		<img src="/images/hero.webp" alt="" />
-		<div class="text-4xl">Hi I'm Anandhu Remanan</div>
-		<span>Full Stack Developer Loves To Build Hybrid Apps</span>
+		<img src="/images/hero.webp" alt="" class="lg:h-60 w-60" />
+		<div class="text-4xl lg:text-6xl">Hi I'm Anandhu Remanan</div>
+		<span class="lg:text-2xl">Full Stack Developer Loves To Build Hybrid Apps</span>
 		<button class="pixel2 p-2 m-4">Know More</button>
 	</section>
 
-	<section class="bg-black text-white p-4">
+	<section class="bg-black text-white p-4 md:px-32 md:flex md: flex-col md:text-center md:text-xl md:py-20 md:items-center">
 		<div class="text-xl">About Me</div>
 		<p>
 			I'm From Kerala The South Part of India. Where I working as a Full Stack Developer For The
 			Last Two Years. I love to build Hybrid Applications. I make music too...
 		</p>
-		<button class="pixel1 p-2 m-4">Download Resume</button>
+		<button class="pixel1 p-2 m-4 w-[200px]">Download Resume</button>
 
-		<div class="flex items-end justify-end flex-col">
+		<div class="flex items-end justify-end flex-col md:items-center">
 			<div class="text-xl mt-8">Socials</div>
 			<div class="flex gap-1 justify-center items-center">
 				<svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" viewBox="0 0 24 24">

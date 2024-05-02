@@ -4,7 +4,7 @@
 </script>
 
 <div>
-	<nav class="p-4 flex justify-between items-center sticky top-0 glass">
+	<nav class="p-4 flex justify-between items-center sticky top-0 glass md:px-32">
 		<div class="text-2xl">I'm Anandhu</div>
 		<div><EllipsisVertical /></div>
 	</nav>
