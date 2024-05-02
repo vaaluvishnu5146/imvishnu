@@ -50,7 +50,7 @@
 	<section
 		class="bg-black text-white p-4 md:px-32 md:flex md: flex-col md:text-center md:text-xl md:py-20 md:items-center"
 	>
-		<div class="text-xl">About Me</div>
+		<div class="text-xl md:text-4xl">About Me</div>
 		<p>
 			I'm From Kerala The South Part of India. Where I working as a Full Stack Developer For The
 			Last Two Years. I love to build Hybrid Applications. I make music too...
