@@ -1,9 +1,47 @@
-<script>
+<script lang="ts">
+	import { spring } from 'svelte/motion';
+	import { pannable } from '$lib/pannable';
+
+	const coords = spring(
+		{ x: 0, y: 0 },
+		{
+			stiffness: 0.2,
+			damping: 0.4
+		}
+	);
+
+	function handlePanStart() {
+		coords.stiffness = coords.damping = 1;
+	}
+
+	function handlePanMove(event: any) {
+		coords.update(($coords) => ({
+			x: $coords.x + event.detail.dx,
+			y: $coords.y + event.detail.dy
+		}));
+	}
+
+	function handlePanEnd(event: any) {
+		coords.stiffness = 0.2;
+		coords.damping = 0.4;
+		coords.set({ x: 0, y: 0 });
+	}
 </script>
 
 <main class="">
 	<section class="flex justify-center flex-col items-center h-[90vh]">
-		<img src="/images/hero.webp" alt="" class="lg:h-60 w-60" />
+		<img
+			src="/images/hero.webp"
+			alt=""
+			class="lg:h-60 w-60 cursor-pointer"
+			use:pannable
+			on:panstart={handlePanStart}
+			on:panmove={handlePanMove}
+			on:panend={handlePanEnd}
+			style="transform:
+			translate({$coords.x}px,{$coords.y}px)
+			rotate({$coords.x * 0.2}deg)"
+		/>
 		<div class="text-4xl lg:text-6xl">Hi I'm Anandhu Remanan</div>
 		<span class="lg:text-2xl">Full Stack Developer Loves To Build Hybrid Apps</span>
 		<button class="pixel2 p-2 m-4">Know More</button>
