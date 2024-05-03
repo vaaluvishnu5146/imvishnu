@@ -1,6 +1,9 @@
 <script lang="ts">
 	import { spring } from 'svelte/motion';
 	import { pannable } from '$lib/pannable';
+	import { onMount } from 'svelte';
+
+	let imgElement: any;
 
 	const coords = spring(
 		{ x: 0, y: 0 },
@@ -26,18 +29,22 @@
 		coords.damping = 0.4;
 		coords.set({ x: 0, y: 0 });
 	}
+
+	onMount(() => {
+		imgElement.addEventListener('panstart', handlePanStart);
+		imgElement.addEventListener('panmove', handlePanMove);
+		imgElement.addEventListener('panend', handlePanEnd);
+	});
 </script>
 
 <main class="">
 	<section class="flex justify-center flex-col items-center h-[90vh]">
 		<img
+			bind:this={imgElement}
 			src="/images/hero.webp"
 			alt=""
 			class="lg:h-60 w-60 cursor-move -z-20 md:z-0"
 			use:pannable
-			on:panstart={handlePanStart}
-			on:panmove={handlePanMove}
-			on:panend={handlePanEnd}
 			style="transform:
 			translate({$coords.x}px,{$coords.y}px)
 			rotate({$coords.x * 0.2}deg)"
