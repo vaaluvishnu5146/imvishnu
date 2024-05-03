@@ -26,19 +26,25 @@
 		bind:hidden={hidden8}
 		id="sidebar8"
 	>
-		<div class="flex items-center"></div>
-		<p class="max-w-lg mb-6 text-sm text-gray-500 dark:text-gray-400">
-			Supercharge your hiring by taking advantage of our <a
-				href="/"
-				class="text-primary-600 underline dark:text-primary-500 hover:no-underline"
+		<div class="flex items-center lg:text-2xl">Whats's New From Me?</div>
+		<p class="max-w-lg mb-6 text-sm text-gray-500 dark:text-gray-400 lg:text-xl">
+			Check out the latest version of svelte component library I build at <a
+				href="/https://www.npmjs.com/package/@grampro/svelte-block"
+				class="text-black underline dark:text-primary-500 hover:no-underline"
 			>
-				limited-time sale
-			</a>
-			for Flowbite Docs + Job Board. Unlimited access to over 190K top-ranked candidates and the #1 design
-			job board.
+				Here
+			</a>. For Docs visit
+			<a
+				href="/https://github.com/ananduremanan/svelte-component-library"
+				class="text-black underline dark:text-primary-500 hover:no-underline"
+			>
+				Github
+			</a> repo.
 		</p>
-		<Button color="light" href="/">Learn more</Button>
-		<Button href="/" class="px-4">Get access</Button>
+		<div class="flex gap-8">
+			<button class="pixel2 lg:text-xl">Learn more</button>
+			<button class="px-4 pixel2 lg:text-xl">Blogs</button>
+		</div>
 	</Drawer>
 	<footer class="bg-black p-2 flex justify-center">
 		<div class="text-white text-sm">Coded With Love © 2024</div>
