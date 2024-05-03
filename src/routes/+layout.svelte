@@ -29,13 +29,13 @@
 		<div class="flex items-center lg:text-2xl">Whats's New From Me?</div>
 		<p class="max-w-lg mb-6 text-sm text-gray-500 dark:text-gray-400 lg:text-xl">
 			Check out the latest version of svelte component library I build at <a
-				href="/https://www.npmjs.com/package/@grampro/svelte-block"
+				href="https://www.npmjs.com/package/@grampro/svelte-block"
 				class="text-black underline dark:text-primary-500 hover:no-underline"
 			>
 				Here
 			</a>. For Docs visit
 			<a
-				href="/https://github.com/ananduremanan/svelte-component-library"
+				href="https://github.com/ananduremanan/svelte-component-library"
 				class="text-black underline dark:text-primary-500 hover:no-underline"
 			>
 				Github
