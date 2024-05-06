@@ -50,8 +50,8 @@
 			rotate({$coords.x * 0.2}deg)"
 		/>
 		<div class="text-4xl lg:text-6xl">Hi I'm Anandhu Remanan</div>
-		<span class="lg:text-2xl">Full Stack Developer Loves To Build Hybrid Apps</span>
-		<button class="pixel2 p-2 m-4">Know More</button>
+		<span class="lg:text-2xl">Full Stack Developer Loves To Build Cross Platform Apps</span>
+		<a href="/hybrid"><button class="pixel2 p-2 m-4">Know More</button></a>
 	</section>
 
 	<section

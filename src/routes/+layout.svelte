@@ -14,7 +14,7 @@
 
 <div>
 	<nav class="p-4 flex justify-between items-center sticky top-0 glass md:px-32">
-		<div class="text-2xl">I'm Anandhu</div>
+		<a href="/"><div class="text-2xl">I'm Anandhu</div></a>
 		<button class="cursor-pointer" on:click={() => (hidden8 = false)}><EllipsisVertical /></button>
 	</nav>
 	<slot />
