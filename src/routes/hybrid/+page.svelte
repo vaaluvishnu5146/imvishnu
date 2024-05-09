@@ -38,7 +38,7 @@
 </script>
 
 <main class="">
-	<section class="flex justify-center flex-col items-center h-[90vh]">
+	<section class="flex justify-center flex-col items-center">
 		<img
 			bind:this={imgElement}
 			src="/images/experiment.webp"
@@ -50,7 +50,7 @@
 			rotate({$coords.x * 0.2}deg)"
 		/>
 		<div class="text-4xl lg:text-6xl">Cross Platform Experiments</div>
-		<span class="lg:text-2xl text-center"
+		<span class="lg:text-2xl text-center px-6"
 			>Check Out Some of My Cross-Platform App Building Experiments Using React Native and Tauri
 			(Rust)</span
 		>
@@ -67,6 +67,24 @@
 				<div class="text-6xl">W</div>
 				<div class="-mt-4">Weather App</div>
 			</div>
+		</div>
+
+		<div class="text-4xl lg:text-6xl mt-14">Svelte Experiments</div>
+		<span class="lg:text-2xl text-center px-6">Svelte Experiments and Packages</span>
+		<div class="grid grid-cols-2 w-full gap-4 px-4 mt-4 lg:px-96 mb-8">
+			<a href="https://create-svelte-docs-theme.vercel.app/" target="_blank">
+				<div class="h-40 border rounded-2xl p-4 flex justify-center items-center flex-col">
+					<div class="text-6xl">SDG</div>
+					<div class="-mt-4">Document Generator</div>
+				</div>
+			</a>
+
+			<a href="https://gbs-svelte-bblock.netlify.app/" target="_blank">
+				<div class="h-40 border rounded-2xl p-4 flex justify-center items-center flex-col">
+					<div class="text-6xl">SCL</div>
+					<div class="-mt-4">Component Library</div>
+				</div>
+			</a>
 		</div>
 	</section>
 </main>
