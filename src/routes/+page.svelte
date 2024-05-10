@@ -80,7 +80,11 @@
 		<div class="flex items-center justify-center flex-col md:items-center">
 			<div class="text-xl mt-8">Socials</div>
 			<div class="flex gap-1 justify-center items-center">
-				<a href="https://www.npmjs.com/~anandhu_or" target="_blank">
+				<a
+					href="https://www.npmjs.com/~anandhu_or"
+					target="_blank"
+					aria-label="click to visit npm profile"
+				>
 					<svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" viewBox="0 0 24 24">
 						<path
 							fill="currentColor"
@@ -89,7 +93,10 @@
 					</svg></a
 				>
 
-				<a href="https://github.com/ananduremanan" target="_blank"
+				<a
+					href="https://github.com/ananduremanan"
+					target="_blank"
+					aria-label="click to visit github profile"
 					><svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24">
 						<path
 							fill="currentColor"
@@ -98,7 +105,11 @@
 					</svg></a
 				>
 
-				<a href="https://www.linkedin.com/in/anandhuor/" target="_blank">
+				<a
+					href="https://www.linkedin.com/in/anandhuor/"
+					target="_blank"
+					aria-label="click to visit linkedin page"
+				>
 					<svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24">
 						<path
 							fill="currentColor"
@@ -110,6 +121,7 @@
 				<a
 					href="https://open.spotify.com/artist/45BRfIlxhvwRI8hlJDt4Qn?utm_medium=share&utm_source=linktree"
 					target="_blank"
+					aria-label="click to visit spotify artist page"
 					><svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24">
 						<path
 							fill="currentColor"
