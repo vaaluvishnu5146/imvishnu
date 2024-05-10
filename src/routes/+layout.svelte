@@ -15,7 +15,11 @@
 <div>
 	<nav class="p-4 flex justify-between items-center sticky top-0 glass md:px-32 z-50">
 		<a href="/"><div class="text-2xl">I'm Anandhu</div></a>
-		<button class="cursor-pointer" on:click={() => (hidden8 = false)}><EllipsisVertical /></button>
+		<button
+			class="cursor-pointer"
+			on:click={() => (hidden8 = false)}
+			aria-label="Click To Show Drawer"><EllipsisVertical /></button
+		>
 	</nav>
 	<slot />
 	<Drawer
@@ -42,8 +46,10 @@
 			</a> repo.
 		</p>
 		<div class="flex gap-8">
-			<button class="pixel2 lg:text-xl">Learn more</button>
-			<button class="px-4 pixel2 lg:text-xl">Blogs</button>
+			<button class="pixel2 lg:text-xl" aria-label="click to learn more about the code"
+				>Learn more</button
+			>
+			<button class="px-4 pixel2 lg:text-xl" aria-label="click to read blog">Blogs</button>
 		</div>
 	</Drawer>
 	<footer class="bg-black p-2 flex justify-center">
