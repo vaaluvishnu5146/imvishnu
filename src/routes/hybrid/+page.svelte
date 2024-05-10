@@ -63,10 +63,12 @@
 				</div>
 			</a>
 
-			<div class="h-40 border rounded-2xl p-4 flex justify-center items-center flex-col">
-				<div class="text-6xl">W</div>
-				<div class="-mt-4">Weather App</div>
-			</div>
+			<a href="https://github.com/ananduremanan/weather-app" target="_blank"
+				><div class="h-40 border rounded-2xl p-4 flex justify-center items-center flex-col">
+					<div class="text-6xl">W</div>
+					<div class="-mt-4">Weather App</div>
+				</div></a
+			>
 		</div>
 
 		<div class="text-4xl lg:text-6xl mt-14">Svelte Experiments</div>
