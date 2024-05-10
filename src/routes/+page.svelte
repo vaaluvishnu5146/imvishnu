@@ -42,14 +42,14 @@
 		<img
 			bind:this={imgElement}
 			src="/images/hero.webp"
-			alt=""
+			alt="hero section"
 			class="lg:h-60 w-60 cursor-move -z-20 md:z-0"
 			use:pannable
 			style="transform:
 			translate({$coords.x}px,{$coords.y}px)
 			rotate({$coords.x * 0.2}deg)"
 		/>
-		<div class="text-4xl lg:text-6xl">Hi I'm Anandhu Remanan</div>
+		<h1 class="text-4xl lg:text-6xl">Hi I'm Anandhu Remanan</h1>
 		<span class="lg:text-2xl">Full Stack Developer Loves To Build Cross Platform Apps</span>
 		<a href="/hybrid"
 			><button class="pixel2 p-2 m-4" aria-label="Click to know more about Anandhu"
@@ -71,7 +71,7 @@
 			><button class="pixel1 p-2 m-4 w-[200px] relative" aria-label="Click To Download my Resume">
 				Download Resume <img
 					src="/images/bugcss.svg"
-					alt=""
+					alt="buggsy bug"
 					class="w-10 absolute top-0 right-0 -rotate-45"
 				/></button
 			></a

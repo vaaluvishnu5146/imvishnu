@@ -42,7 +42,7 @@
 		<img
 			bind:this={imgElement}
 			src="/images/experiment.webp"
-			alt=""
+			alt="hybrid hero"
 			class="lg:h-60 w-60 cursor-move -z-20 md:z-0"
 			use:pannable
 			style="transform:
