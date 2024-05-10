@@ -61,7 +61,7 @@
 	<section
 		class="bg-black text-white p-4 md:px-32 flex flex-col text-center md:text-xl md:py-20 items-center"
 	>
-		<div class="text-xl md:text-4xl">About Me</div>
+		<h2 class="text-xl md:text-4xl">About Me</h2>
 		<p>
 			I'm From Kerala The South Part of India. Where I working as a Full Stack Developer For The
 			Last Two Years. I love to build Hybrid Applications. I make music too...
