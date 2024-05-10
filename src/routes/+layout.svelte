@@ -1,7 +1,7 @@
 <script>
 	import './app.css';
 	import { EllipsisVertical } from 'lucide-svelte';
-	import { Drawer, Button, CloseButton, A } from 'flowbite-svelte';
+	import { Drawer } from 'flowbite-svelte';
 	import { sineIn } from 'svelte/easing';
 
 	let hidden8 = true;
