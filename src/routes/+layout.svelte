@@ -3,6 +3,15 @@
 	import { EllipsisVertical } from 'lucide-svelte';
 	import { Drawer } from 'flowbite-svelte';
 	import { sineIn } from 'svelte/easing';
+	import { Howl } from 'howler';
+
+	const click = new Howl({
+		src: ['/sounds/whoosh.wav']
+	});
+
+	function playWoosh() {
+		click.play();
+	}
 
 	let hidden8 = true;
 	let transitionParamsBottom = {
@@ -17,7 +26,10 @@
 		<a href="/"><div class="text-2xl">I'm Anandhu</div></a>
 		<button
 			class="cursor-pointer"
-			on:click={() => (hidden8 = false)}
+			on:click={() => {
+				hidden8 = false;
+				playWoosh();
+			}}
 			aria-label="Click To Show Drawer"><EllipsisVertical /></button
 		>
 	</nav>

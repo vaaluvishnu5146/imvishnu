@@ -2,8 +2,17 @@
 	import { spring } from 'svelte/motion';
 	import { pannable } from '$lib/pannable';
 	import { onMount } from 'svelte';
+	import { Howl } from 'howler';
 
 	let imgElement: any;
+
+	const click = new Howl({
+		src: ['/sounds/click.mp3']
+	});
+
+	function playSound() {
+		click.play();
+	}
 
 	const coords = spring(
 		{ x: 0, y: 0 },
@@ -52,8 +61,10 @@
 		<h1 class="text-4xl lg:text-6xl">Hi I'm Anandhu Remanan</h1>
 		<span class="lg:text-2xl">Full Stack Developer Loves To Build Cross Platform Apps</span>
 		<a href="/hybrid"
-			><button class="pixel2 p-2 m-4" aria-label="Click to know more about Anandhu"
-				>Know More</button
+			><button
+				class="pixel2 p-2 m-4"
+				aria-label="Click to know more about Anandhu"
+				on:click={playSound}>Know More</button
 			></a
 		>
 	</section>
@@ -68,7 +79,11 @@
 		</p>
 		<a
 			href="https://onedrive.live.com/download?resid=77CAE4ED2AE118B8%211424&authkey=!AD7y-yP5rnR3Fzg&em=2"
-			><button class="pixel1 p-2 m-4 w-[200px] relative" aria-label="Click To Download my Resume">
+			><button
+				class="pixel1 p-2 m-4 w-[200px] relative"
+				aria-label="Click To Download my Resume"
+				on:click={playSound}
+			>
 				Download Resume <img
 					src="/images/bugcss.svg"
 					alt="buggsy bug"
