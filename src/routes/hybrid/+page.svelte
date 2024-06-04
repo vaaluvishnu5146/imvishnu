@@ -63,7 +63,9 @@
 				</div>
 			</a>
 
-			<a href="https://github.com/ananduremanan/weather-app" target="_blank"
+			<a
+				href="https://github.com/ananduremanan/weather-app/releases/tag/v-0.0.1-beta"
+				target="_blank"
 				><div class="h-40 border rounded-2xl p-4 flex justify-center items-center flex-col">
 					<div class="text-6xl">W</div>
 					<div class="-mt-4">Weather App</div>
@@ -81,10 +83,39 @@
 				</div>
 			</a>
 
-			<a href="https://gbs-svelte-bblock.netlify.app/" target="_blank">
+			<a href="https://gramlib.netlify.app/" target="_blank">
 				<div class="h-40 border rounded-2xl p-4 flex justify-center items-center flex-col">
 					<div class="text-6xl">SCL</div>
 					<div class="-mt-4">Component Library</div>
+				</div>
+			</a>
+		</div>
+
+		<div class="text-4xl lg:text-6xl mt-14">Client Works</div>
+		<span class="lg:text-2xl text-center px-6">Client UI/UX Works</span>
+		<div class="grid grid-cols-2 w-full gap-4 px-4 mt-4 lg:px-96 mb-8">
+			<a href="https://ztooanalytics.com" target="_blank">
+				<div class="h-40 border rounded-2xl p-4 flex justify-center items-center flex-col">
+					<div class="text-6xl">ZT</div>
+					<div class="-mt-4">Ztoo Analytics</div>
+				</div>
+			</a>
+
+			<a href="https://paullandlandscaping.com" target="_blank">
+				<div class="h-40 border rounded-2xl p-4 flex justify-center items-center flex-col">
+					<div class="text-6xl">PL</div>
+					<div class="-mt-4">Paulland Landscapping</div>
+				</div>
+			</a>
+		</div>
+
+		<div class="text-4xl lg:text-6xl mt-14">UI/UX Experiments</div>
+		<span class="lg:text-2xl text-center px-6">My UI/UX Experiments</span>
+		<div class="grid grid-cols-2 w-full gap-4 px-4 mt-4 lg:px-96 mb-8">
+			<a href="https://aid-aice.vercel.app" target="_blank">
+				<div class="h-40 border rounded-2xl p-4 flex justify-center items-center flex-col">
+					<div class="text-6xl">AA</div>
+					<div class="-mt-4">Aid Aice</div>
 				</div>
 			</a>
 		</div>

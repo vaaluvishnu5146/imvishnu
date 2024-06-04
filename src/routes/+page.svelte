@@ -74,7 +74,7 @@
 	>
 		<h2 class="text-xl md:text-4xl">About Me</h2>
 		<p>
-			I'm From Kerala The South Part of India. Where I working as a Full Stack Developer For The
+			I'm From Kerala (The South Part of India). Where I working as a Software Engineer For The
 			Last Two Years. I love to build Cross Platform Applications. I make music too... 
 		</p>
 		<a
