@@ -23,7 +23,7 @@
 
 <div>
 	<nav class="p-4 flex justify-between items-center sticky top-0 glass md:px-32 z-50">
-		<a href="/"><div class="text-2xl">I'm Anandhu</div></a>
+		<a href="/"><div class="text-2xl">I'm Vishnu</div></a>
 		<button
 			class="cursor-pointer"
 			on:click={() => {
@@ -44,24 +44,18 @@
 	>
 		<div class="flex items-center lg:text-2xl">Whats's New From Me?</div>
 		<p class="max-w-lg mb-6 text-sm text-gray-500 dark:text-gray-400 lg:text-xl">
-			Check out the latest version of svelte component library I build at <a
-				href="https://www.npmjs.com/package/@grampro/svelte-block"
-				class="text-black underline dark:text-primary-500 hover:no-underline"
-			>
-				Here
-			</a>. For Docs visit
-			<a
-				href="https://github.com/ananduremanan/svelte-component-library"
-				class="text-black underline dark:text-primary-500 hover:no-underline"
-			>
-				Github
-			</a> repo.
+			Something awesome is cooking!
 		</p>
 		<div class="flex gap-8">
 			<button class="pixel2 lg:text-xl" aria-label="click to learn more about the code"
 				>Learn more</button
 			>
-			<button class="px-4 pixel2 lg:text-xl" aria-label="click to read blog">Blogs</button>
+			<a
+				href="https://medium.com/@vaaluvishnu5146"
+				class="text-black underline dark:text-primary-500 hover:no-underline"
+			>
+				<button class="px-4 pixel2 lg:text-xl" aria-label="click to read blog">Blogs</button>
+			</a>
 		</div>
 	</Drawer>
 	<footer class="bg-black p-2 flex justify-center">

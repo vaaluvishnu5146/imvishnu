@@ -47,10 +47,11 @@
 </script>
 
 <main class="">
+	<!-- Main Section -->
 	<section class="flex justify-center flex-col items-center h-[90vh]">
 		<img
 			bind:this={imgElement}
-			src="/images/hero.webp"
+			src="/images/profile-pic.png"
 			alt="hero section"
 			class="lg:h-60 w-60 cursor-move -z-20 md:z-0"
 			use:pannable
@@ -58,27 +59,29 @@
 			translate({$coords.x}px,{$coords.y}px)
 			rotate({$coords.x * 0.2}deg)"
 		/>
-		<h1 class="text-4xl lg:text-6xl">Hi I'm Anandhu Remanan</h1>
-		<span class="lg:text-2xl">Full Stack Developer Loves To Build Cross Platform Apps</span>
+		<h1 class="text-4xl lg:text-6xl">Hi I'm Vishnu Vardhan</h1>
+		<span class="lg:text-2xl"
+			>Full Stack Developer Loves To Build Web and Native Software Applications</span
+		>
 		<a href="/hybrid"
 			><button
 				class="pixel2 p-2 m-4"
-				aria-label="Click to know more about Anandhu"
+				aria-label="Click to know more about vishnu"
 				on:click={playSound}>Know More</button
 			></a
 		>
 	</section>
 
+	<!-- Footer -->
 	<section
 		class="bg-black text-white p-4 md:px-32 flex flex-col text-center md:text-xl md:py-20 items-center"
 	>
 		<h2 class="text-xl md:text-4xl">About Me</h2>
 		<p>
-			I'm From Kerala (The South Part of India). Where I working as a Software Engineer For The
-			Last Two Years. I love to build Cross Platform Applications. I make music too... 
+			I'm From Bengaluru (The South Part of India). Where I working as a Software Engineer For The
+			Last 8 Years. I love to build Cloud Native and Scalable Applications. I Blog and Vlog too...
 		</p>
-		<a
-			href="https://onedrive.live.com/download?resid=77CAE4ED2AE118B8%211424&authkey=!AD7y-yP5rnR3Fzg&em=2"
+		<a href="https://drive.google.com/uc?export=download&id=1-cLI-vmGCtG8jzaqawrXLeIceGjUyWMd"
 			><button
 				class="pixel1 p-2 m-4 w-[200px] relative"
 				aria-label="Click To Download my Resume"
@@ -96,7 +99,7 @@
 			<div class="text-xl mt-8">Socials</div>
 			<div class="flex gap-1 justify-center items-center">
 				<a
-					href="https://www.npmjs.com/~anandhu_or"
+					href="https://www.npmjs.com/~vishnu5146"
 					target="_blank"
 					aria-label="click to visit npm profile"
 				>
@@ -109,7 +112,7 @@
 				>
 
 				<a
-					href="https://github.com/ananduremanan"
+					href="https://github.com/vaaluvishnu5146?tab=repositories"
 					target="_blank"
 					aria-label="click to visit github profile"
 					><svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24">
@@ -121,7 +124,7 @@
 				>
 
 				<a
-					href="https://www.linkedin.com/in/anandhuor/"
+					href="https://www.linkedin.com/in/vishnu-vardhan-balasundaram-851490196/"
 					target="_blank"
 					aria-label="click to visit linkedin page"
 				>
@@ -132,18 +135,23 @@
 						/>
 					</svg></a
 				>
-
 				<a
-					href="https://open.spotify.com/artist/45BRfIlxhvwRI8hlJDt4Qn?utm_medium=share&utm_source=linktree"
+					href="https://medium.com/@vaaluvishnu5146"
 					target="_blank"
 					aria-label="click to visit spotify artist page"
-					><svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24">
-						<path
-							fill="currentColor"
-							d="M17.9 10.9C14.7 9 9.35 8.8 6.3 9.75c-.5.15-1-.15-1.15-.6c-.15-.5.15-1 .6-1.15c3.55-1.05 9.4-.85 13.1 1.35c.45.25.6.85.35 1.3c-.25.35-.85.5-1.3.25m-.1 2.8c-.25.35-.7.5-1.05.25c-2.7-1.65-6.8-2.15-9.95-1.15c-.4.1-.85-.1-.95-.5s.1-.85.5-.95c3.65-1.1 8.15-.55 11.25 1.35c.3.15.45.65.2 1m-1.2 2.75c-.2.3-.55.4-.85.2c-2.35-1.45-5.3-1.75-8.8-.95c-.35.1-.65-.15-.75-.45c-.1-.35.15-.65.45-.75c3.8-.85 7.1-.5 9.7 1.1c.35.15.4.55.25.85M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10a10 10 0 0 0 10-10A10 10 0 0 0 12 2"
-						/>
-					</svg></a
 				>
+					<svg
+						fill="none"
+						height="3em"
+						viewBox="0 0 92 92"
+						width="3em"
+						xmlns="http://www.w3.org/2000/svg"
+						><path
+							d="m49.0769 47.0045c0 7.8392-6.4616 14.2047-14.4662 14.2047s-14.4662-6.3655-14.4662-14.2047 6.4616-14.2047 14.4662-14.2047 14.4662 6.3655 14.4662 14.2047zm15.8485 0c0 7.3689-3.2468 13.3581-7.2331 13.3581-3.9862 0-7.2331-5.9892-7.2331-13.3581s3.2469-13.3581 7.2331-13.3581c3.9863 0 7.2331 5.9579 7.2331 13.3581zm6.4937 0c0 6.6163-1.1251 11.9784-2.5396 11.9784-1.4144 0-2.5396-5.3621-2.5396-11.9784s1.1252-11.9784 2.5396-11.9784c1.4145 0 2.5396 5.3621 2.5396 11.9784z"
+							fill="#fff"
+						/></svg
+					>
+				</a>
 			</div>
 		</div>
 	</section>
